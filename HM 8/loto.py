@@ -42,7 +42,9 @@
 модуль random: http://docs.python.org/3/library/random.html
 """
 
-from random import randint
+from random 
+import randint
+import random
  
 class Card:
     def __init__(self, title='', rows_amount=3, cols_amount=9, nums_per_row=5, max_num=90):
