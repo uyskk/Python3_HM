@@ -1,3 +1,8 @@
+import sys
+import os
+import shutil
+from os import path
+
 # Задача-1:
 # Следующая программа написана верно, однако содержит места потенциальных ошибок.
 # используя конструкцию try добавьте в код обработку соответствующих исключений.
@@ -41,8 +46,9 @@ except Exception as err:
 # из которой запущен данный скрипт.
 # И второй скрипт, удаляющий эти папки.
 
-
 import os
+import sys
+
 print('Ваща текущая директория {}'.format(os.getcwd()))
 def makedir(i):
     os.mkdir('{}'.format(i))
